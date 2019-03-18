@@ -13,9 +13,11 @@ int main()
          << "A / B = " << a / b << '\n';
     if (a>b)
     {
-        cout<<"max= "<< a;
+        cout<<"max= "<< a << '\n';
+        cout<<"min= "<< b;
     } else {
-        cout<<"max= "<< b;
+        cout<<"max= "<< b << '\n';
+        cout<<"min= "<< a;
     }
     return 0;
 }
